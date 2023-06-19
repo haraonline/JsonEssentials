@@ -14,5 +14,14 @@ namespace _01_SerializeDeserialize
         public Car car { get; set; }
         public List<Author> favouriteAuthors { get; set; }
         public AuthorRelationship authorRelationship { get; set; }        
+
+
+        //override string ToString()
+        public override string ToString()
+        {
+            return $"Name: {Name}, Courses: {string.Join(", ", Courses)}," +
+                $" Since: {since}, Happy: {happy}, Issues: {issues}, Car: {car}," +                
+                $"Author Relationship: {authorRelationship}";
+        }
     }
 }
