@@ -1,0 +1,12 @@
+﻿{
+  "name": "Hara Kovvali",
+  "courses": [ "C#","JS","Python","SQL" ],
+  "since": "2014-01-14T00:00:00",
+  "happy": true,
+  "issues": null,
+  "car": {
+    "model": "Ambassador Series III",
+    "year": 1976
+  },
+  "authorRelationship": 1
+}
