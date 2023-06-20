@@ -20,7 +20,7 @@ namespace _01_SerializeDeserialize
         public override string ToString()
         {
             return $"Name: {Name}, Courses: {string.Join(", ", Courses)}," +
-                $" Since: {since}, Happy: {happy}, Issues: {issues}, Car: {car}," +                
+                $"Happy: {happy}, Issues: {issues}, Car: {car}," +                
                 $"Author Relationship: {authorRelationship}";
         }
     }
