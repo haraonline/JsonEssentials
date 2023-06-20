@@ -73,10 +73,6 @@ namespace _01_SerializeDeserialize
             string jsonFile = File.ReadAllText(@"JsonFiles\AuthorSingle.json");
             Author? authorFromFile = JsonConvert.DeserializeObject<Author>(jsonFile);
             Console.WriteLine(authorFromFile.Name);
-            
-
-
-
         }
     }
 }
