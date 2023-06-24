@@ -47,7 +47,7 @@ namespace _02_JsonDates
             Console.WriteLine("- Serialize object specifying custom date format");
             JsonSerializerSettings settingsCustomDate = new JsonSerializerSettings
             {
-                DateFormatString = "dd.MM.yyyy"
+                DateFormatString = "dd.MM.yyyy hh:mm:ss"
             };
 
             string dateCustom = JsonConvert.SerializeObject(dates, Formatting.Indented, settingsCustomDate);
