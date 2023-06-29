@@ -10,7 +10,7 @@ namespace _04_PropertiesAndSettings
     {
         public static string ExtendedSingleJson()
         {
-            return File.ReadAllText("AuthorSingleExtended.json");
+            return File.ReadAllText("AuthorExtended.json");
         }
     }
 }

@@ -10,7 +10,7 @@ namespace _04_PropertiesAndSettings
     {
         public Author()
         {
-            courses = new List<string> { "course 1", "course 2", "course 3" };
+            courses = new List<string> { "C#", "Python", "JavaScript" };
         }
 
         public string name { get; set; }
