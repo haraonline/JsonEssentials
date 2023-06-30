@@ -6,7 +6,8 @@
         {
             Console.WriteLine("JSON Settings");
             Console.WriteLine("---------------------");
-            DeserializeMissingMembers.Show();
+            //DeserializeMissingMembers.Show();
+            SerializationCircularReferencesDemo.Show();
         }
     }
 }
