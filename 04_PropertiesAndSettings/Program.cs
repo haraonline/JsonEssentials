@@ -3,11 +3,10 @@
     internal class Program
     {
         static void Main(string[] args)
-        {
-            Console.WriteLine("JSON Settings");
-            Console.WriteLine("---------------------");
+        {            
             //DeserializeMissingMembers.Show();
-            SerializationCircularReferencesDemo.Show();
+            //SerializationCircularReferencesDemo.Show();
+            //SerializationNullValueHandling.Show();
         }
     }
 }
